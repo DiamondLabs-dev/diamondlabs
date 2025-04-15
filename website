@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diamond Labs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="p-6 bg-gray-800 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">diamondlabs.dev</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:text-blue-400">Home</a>
+        <a href="#about" class="hover:text-blue-400">About</a>
+        <a href="#contact" class="hover:text-blue-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="py-20 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-4">Welcome to Diamond Labs</h2>
+    <p class="text-gray-300 max-w-xl mx-auto">
+      Building custom bots, automation tools, and clean code for anything you need. Specialized in Discord bots.
+    </p>
+  </section>
+
+  <section id="about" class="bg-gray-800 py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="text-gray-300">
+        Hey, I’m a 15-year-old coder behind Diamond Labs. I create Discord bots, custom scripts, and tech solutions for all kinds of projects. Whether it's automating your server or building out ideas — I code it.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="py-20 px-6">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Contact</h2>
+      <p class="text-gray-300 mb-6">Let's work together! Email me or use the form below.</p>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 rounded bg-gray-700 text-white" />
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded bg-gray-700 text-white" />
+        <textarea name="message" rows="5" placeholder="Your Message" required class="w-full p-3 rounded bg-gray-700 text-white"></textarea>
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded font-semibold">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 p-4 text-center text-sm text-gray-400">
+    &copy; 2025 Diamond Labs. All rights reserved.
+  </footer>
+</body>
+</html>
